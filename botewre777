@@ -1,0 +1,41 @@
+getgenv().Settings = {
+    ['Camlock'] = {
+        ['Enabled'] = false,
+        ['Keybind'] = "C",
+        ['Prediction'] = 0.14638966,
+        ['Part'] = "Torso",
+        ['EnableJumpPart'] = true,
+        ['JumpPart'] = "Head",
+        ['Smoothness'] = 0.9,
+        ['Offset'] = 0.6, 
+        ['Resolver'] = false,
+    },
+    ['Fly'] = {
+        ['Enabled'] = false,  
+        ['Keybind'] = "F",
+        ['Speed'] = 50
+    },
+    ['Spin'] = {
+        ['Enabled'] = true 
+        ['Keybind'] = "T",
+        ['Speed'] = 9, 
+        ['InFirstPerson'] = true 
+    },
+    ['Esp'] = {
+        ['Enabled'] = false, 
+        ['Keybind'] = "P",
+        ['BoxColor'] = Color3.fromRGB(156, 114, 255),
+        ['TracerColor'] = {
+            ['Enabled'] = false, 
+            ['Color'] = Color3.fromRGB(255, 255, 255), 
+            ['Thickness'] = 2,
+        },
+        ['NameColor'] = Color3.fromRGB(255, 255, 255),
+        ['FontSize'] = 13 
+    },
+    ["IntroSettings"] = {
+        ['IntroID'] = "rbxassetid://94306191778376"
+    },
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/khen791/script-khen/refs/heads/main/lock%20pc", true))();
