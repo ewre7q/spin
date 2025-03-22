@@ -11,14 +11,14 @@ getgenv().Settings = {
         ['Resolver'] = false,
     },
     ['Fly'] = {
-        ['Enabled'] = false,  
+        ['Enabled'] = false,
         ['Keybind'] = "F",
         ['Speed'] = 50
     },
     ['Spin'] = {
-        ['Enabled'] = false 
+        ['Enabled'] = false, 
         ['Keybind'] = "T",
-        ['Speed'] = 9, 
+        ['Speed'] = 5, 
         ['InFirstPerson'] = true 
     },
     ['Esp'] = {
@@ -34,7 +34,7 @@ getgenv().Settings = {
         ['FontSize'] = 13 
     },
     ["IntroSettings"] = {
-        ['IntroID'] = "rbxassetid://"
+        ['IntroID'] = "rbxassetid://75980523178016"
     },
 }
 
