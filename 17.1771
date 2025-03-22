@@ -1,6 +1,6 @@
 getgenv().Settings = {
     ['Camlock'] = {
-        ['Enabled'] = false,
+        ['Enabled'] = true,
         ['Keybind'] = "C",
         ['Prediction'] = 0.14638966,
         ['Part'] = "Torso",
@@ -16,7 +16,7 @@ getgenv().Settings = {
         ['Speed'] = 50
     },
     ['Spin'] = {
-        ['Enabled'] = true 
+        ['Enabled'] = false 
         ['Keybind'] = "T",
         ['Speed'] = 9, 
         ['InFirstPerson'] = true 
@@ -34,7 +34,7 @@ getgenv().Settings = {
         ['FontSize'] = 13 
     },
     ["IntroSettings"] = {
-        ['IntroID'] = "rbxassetid://94306191778376"
+        ['IntroID'] = "rbxassetid://"
     },
 }
 
